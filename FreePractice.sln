@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreePractice.Web.API", "FreePractice.Web.API\FreePractice.Web.API.csproj", "{16182E80-03AB-48EC-A23F-612A178CEB32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreePractice.Web.API", "FreePractice.Web.API\FreePractice.Web.API.csproj", "{16182E80-03AB-48EC-A23F-612A178CEB32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreePractice.Web.Data", "FreePractice.Web.Data\FreePractice.Web.Data.csproj", "{F883108E-811D-4F3F-A3D0-295A4849CA55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreePractice.Web.Data.Tests", "FreePractice.Web.Data.Tests\FreePractice.Web.Data.Tests.csproj", "{C9AE669F-0AE5-4A2B-8543-1D33F2268DBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{16182E80-03AB-48EC-A23F-612A178CEB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16182E80-03AB-48EC-A23F-612A178CEB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16182E80-03AB-48EC-A23F-612A178CEB32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F883108E-811D-4F3F-A3D0-295A4849CA55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F883108E-811D-4F3F-A3D0-295A4849CA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F883108E-811D-4F3F-A3D0-295A4849CA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F883108E-811D-4F3F-A3D0-295A4849CA55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9AE669F-0AE5-4A2B-8543-1D33F2268DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AE669F-0AE5-4A2B-8543-1D33F2268DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AE669F-0AE5-4A2B-8543-1D33F2268DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AE669F-0AE5-4A2B-8543-1D33F2268DBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
