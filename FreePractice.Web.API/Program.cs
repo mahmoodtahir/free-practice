@@ -13,6 +13,7 @@ namespace FreePractice.Web.API
     {
         public static void Main(string[] args)
         {
+            // force commit.
             CreateHostBuilder(args).Build().Run();
         }
 
